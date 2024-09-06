@@ -4,12 +4,12 @@ one:
   title: MyString
   address: MyString
   picture: MyString
-  hours: 
   criteria: MyString
+  photo: MyString
 
 two:
   title: MyString
   address: MyString
   picture: MyString
-  hours: 
   criteria: MyString
+  photo: MyString
