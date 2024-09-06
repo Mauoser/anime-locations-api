@@ -79,7 +79,7 @@ test:
 #
 production:
   <<: *default
+  # database: anime_locations_api_production
+  # username: anime_locations_api
+  # password: <%= ENV["ANIME_LOCATIONS_API_DATABASE_PASSWORD"] %>
   url: <%= ENV["DATABASE_URL"] %>
-  database: anime_locations_api_production
-  username: anime_locations_api
-  password: <%= ENV["ANIME_LOCATIONS_API_DATABASE_PASSWORD"] %>

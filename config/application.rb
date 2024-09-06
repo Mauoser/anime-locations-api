@@ -30,5 +30,6 @@ module AnimeLocationsApi
     config.api_only = true
     config.assets.enabled = true
     config.assets.compile = true
+    config.secret_key_base = ENV['SECRET_KEY_BASE']
   end
 end
